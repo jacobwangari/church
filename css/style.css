@@ -262,7 +262,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -368,6 +368,9 @@ h1, h2, h3, h4, h5, h6, figure {
   border: none;
   z-index: 1;
   margin-bottom: 0;
+  position: relative;
+  height: 500px;
+  overflow: hidden;
 }
 #fh5co-hero .flexslider .slides {
   position: relative;
@@ -385,8 +388,8 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-hero .flexslider .slides li {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom center;
-  height: 500px;
+  background-position: top center;
+  height: 100%;
   position: relative;
 }
 #fh5co-hero .flexslider .flex-control-nav {
@@ -832,13 +835,13 @@ input[type="text"] {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
 }
 .fh5co-social-icons li a {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   color: #658361;
   padding-left: 10px;
   padding-right: 10px;
@@ -1343,3 +1346,5 @@ input[type="text"] {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
